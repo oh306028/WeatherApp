@@ -1,0 +1,27 @@
+.weatherForm {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.inputCity {
+  margin-right: 10px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  padding: 7px;
+}
+
+.submitButton {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(8, 150, 8, 0.671);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.card {
+}
