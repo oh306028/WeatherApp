@@ -1,17 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .weatherForm {
   margin-top: 25px;
-  display: flex;
-  justify-content: center;
   margin-bottom: 15px;
 }
 
 .inputCity {
   margin-right: 10px;
   height: 30px;
+  width: 220px;
   font-size: 15px;
   border-radius: 10px;
   border: 0.5px solid black;
   padding: 7px;
+  font-weight: bold;
 }
 
 .submitButton {
@@ -21,7 +30,33 @@
   color: white;
   padding: 5px;
   border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  height: 44px;
 }
 
 .card {
+  padding: 50px;
+  margin-top: 12px;
+  box-shadow: 0px 0px 9px -1px rgba(66, 68, 90, 1);
+  background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+p {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.errorDisplay {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
 }
